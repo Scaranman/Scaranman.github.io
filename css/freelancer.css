@@ -68,11 +68,11 @@ hr.star-light:after {
 }
 
 hr.star-primary {
-    border-color: #720b68
+    border-color: #bf15ae
 }
 
 hr.star-primary:after {
-    color: #720b68;
+    color: #bf15ae;
     background-color: #fff;
 }
 
@@ -83,7 +83,7 @@ hr.star-primary:after {
 header {
     text-align: center;
     color: #fff;
-    background: #18bc9c;
+    background: #bf15ae;
 }
 
 header .container {
@@ -182,7 +182,7 @@ section h2 {
 
 section.success {
     color: #fff;
-    background: #18bc9c;
+    background: #bf15ae;
 }
 
 section.success a,
@@ -191,7 +191,7 @@ section.success a:focus,
 section.success a:active,
 section.success a.active {
     outline: 0;
-    color: #720b68
+    color: #bf15ae
 }
 
 @media(max-width:767px) {
@@ -221,7 +221,7 @@ section.success a.active {
     width: 100%;
     height: 100%;
     opacity: 0;
-    background: rgba(24,188,156,.9);
+    background: #bf15ae;
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;
@@ -328,7 +328,7 @@ section.success a.active {
 }
 
 .floating-label-form-group-with-focus label {
-    color: #18bc9c;
+    color: #bf15ae;
 }
 
 form .row:first-child .floating-label-form-group {
@@ -357,6 +357,15 @@ footer .footer-below {
     background-color: #233140;
 }
 
+.btn{
+    background-color: #bf15ae;
+    border: none;
+}
+
+.btn:hover{
+    background-color: #720b68
+}
+
 .btn-social {
     display: inline-block;
     width: 50px;
@@ -381,6 +390,10 @@ footer .footer-below {
     bottom: 2%;
     width: 50px;
     height: 50px;
+}
+
+.page-scroll a:hover{
+    color: #bf15ae !important;
 }
 
 .scroll-top .btn {
@@ -458,23 +471,17 @@ footer .footer-below {
     display: none;
     opacity: 0;
 }
-
-#resume object{
-    height: 810px;
-    width: 600px;;
-}
-
-#resume #viewer{
-    margin-left: auto;
-    margin-right: auto;
-    width: 75%;
-    overflow: hidden;
-}
-
 nav{
     width: 100vw;
 }
 
 object p{
     text-align: center;
+}
+
+#viewer{
+    width: 50vw;
+    height: 900px;
+    margin-left: auto;
+    margin-right: auto;
 }
