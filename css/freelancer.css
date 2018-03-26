@@ -467,4 +467,5 @@ footer .footer-below {
     margin-left: auto;
     margin-right: auto;
     width: 600px;
+    overflow: hidden;
 }
