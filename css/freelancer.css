@@ -6,6 +6,7 @@
 
 body {
     overflow-x: hidden;
+    width: 100% !important;
 }
 
 p {
@@ -71,7 +72,7 @@ hr.star-primary {
 }
 
 hr.star-primary:after {
-    color: #720b68
+    color: #720b68;
     background-color: #fff;
 }
 
@@ -466,6 +467,14 @@ footer .footer-below {
 #resume #viewer{
     margin-left: auto;
     margin-right: auto;
-    width: 600px;
+    width: 75%;
     overflow: hidden;
+}
+
+nav{
+    width: 100vw;
+}
+
+object p{
+    text-align: center;
 }
