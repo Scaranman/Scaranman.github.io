@@ -22,7 +22,7 @@ a:focus,
 a:active,
 a.active {
     outline: 0;
-    color: #18bc9c;
+    color: #bf15ae;
 }
 
 h1,
@@ -63,15 +63,15 @@ hr.star-light {
 
 hr.star-light:after {
     color: #fff;
-    background-color: #18bc9c;
+    background-color: #bf15ae;
 }
 
 hr.star-primary {
-    border-color: #2c3e50;
+    border-color: #720b68
 }
 
 hr.star-primary:after {
-    color: #2c3e50;
+    color: #720b68
     background-color: #fff;
 }
 
@@ -190,7 +190,7 @@ section.success a:focus,
 section.success a:active,
 section.success a.active {
     outline: 0;
-    color: #2c3e50;
+    color: #720b68
 }
 
 @media(max-width:767px) {
@@ -274,7 +274,7 @@ section.success a.active {
 .btn-outline:active,
 .btn-outline.active {
     border: solid 2px #fff;
-    color: #18bc9c;
+    color: #bf15ae;
     background: #fff;
 }
 
