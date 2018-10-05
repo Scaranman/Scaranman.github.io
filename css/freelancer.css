@@ -4,6 +4,13 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+
+ #resume {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+ }
+
 body {
     overflow-x: hidden;
     width: 100% !important;
