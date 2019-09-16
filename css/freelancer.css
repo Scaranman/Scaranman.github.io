@@ -12,6 +12,10 @@
     margin-right: auto;	
 }
 
+.iframe-container-4x3 {
+  padding-top: 75%;
+}
+
 .resp-iframe {
     position: absolute;
     top: 0;
