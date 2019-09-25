@@ -6,7 +6,7 @@
 
 .resp-container {
     position: relative;
-    overflow: hidden;
+    /*overflow: hidden;*/
     padding-top: 150%;
     margin-left: auto;
     margin-right: auto;	
