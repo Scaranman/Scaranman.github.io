@@ -510,3 +510,7 @@ nav{
 object p{
     text-align: center;
 }
+
+#resume img{
+    border: 1px solid #720b68;
+}
