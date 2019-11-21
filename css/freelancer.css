@@ -4,11 +4,6 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
- #portrait{
-    width:50%;
-    height:50%;
-}
-
 .resp-container {
     position: relative;
     padding-top: 150%;
