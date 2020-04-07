@@ -8,6 +8,10 @@
      font-family: "Open sans", sans-serif;
  }
 
+ #resume a {
+     text-align: center;
+ }
+
 .resp-container {
     position: relative;
     padding-top: 150%;
