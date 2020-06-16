@@ -47,7 +47,7 @@ var linguJSON = {
             "target": "私のUXに興味があることは家族から貰ったと思いたします。母は幼児教育をす前に芸術大学に勉強してグラフィックデザイナーでございました。父は建築家でございます。"
         },
         {
-            "source": "From a young age I got invloved in the use of computers in technology, due to my communication disability as a child, I was always on some piece of technology. Whether it be my Gameboy , the Xbox, or the family PC. Needless to say, technology is an important part of my life and from the start, I knew I was going to do something with technology.",
+            "source": "From a young age I got invloved in the use of computers in technology,　and due to my communication disability as a child, I was always on some piece of technology. Whether it be my Gameboy , the Xbox, or the family PC. Needless to say, technology is an important part of my life and from the start, I knew I was going to do something with technology.",
             "target": "子供の特にもうコンピューターと科学技術に興味におなりしました。いつも仕掛けをつかっておりました。がいむぼいうゲームボーイアドバンスとかXboxとか家族のPCとかよくお使いしました。"
         },
         {
@@ -56,18 +56,12 @@ var linguJSON = {
         },
         {
             "source": "I really love learning about Japanese language and culture and I have extended my interest to other cultures worldwide. One of my dreams is to travel the world and learn all about them.",
-            "target": ""
+            "target": " "
         },
         {
             "source": "Outside of School and UX, I enjoy video games, hiking, and spending time with my Dog, Dexter. I recently started trying to practise guitar again and teaching myself how to draw.",
             "target": "学校とUXの以外ゲイムやハイキングや動物を見る事が好きです。最近もうギターを低くのと描くのを習っております。"
         },
-
-    
-    
-    
-    
-    
     ]
 };
                                         
