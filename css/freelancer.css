@@ -4,9 +4,41 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
- p {
-     font-family: "Open sans", sans-serif;
- }
+ @font-face {
+    font-family: Kasugi;
+    src: url('/fonts/Kasugi');
+}
+
+@font-face {
+    font-family: KasugiMaru;
+    src: url('/fonts/KasugiMaru');
+}
+   
+:lang(en) p {
+    font-family: "Open sans", sans-serif;
+}
+
+:lang(en) h1, h2, h3, h4, h5, h6, .nav{
+    font-family: "Cabin", sans-serif;
+}
+:lang(ja) p {
+    font-family: Kasugi, sans-serif;
+}
+
+:lang(ja) h1, h2, h3, h4, h5, h6, .nav{
+    font-family: KasugiMaru, sans-serif;
+
+}
+
+#langswitcher {
+    display: box;
+    width: 100px;
+    height: 68px;
+    text-align: center;
+    background-color: #8F5AA5;
+    color: #fff;
+    padding: 10px;;
+}
 
  #resume div.container a {
      text-align: center;
