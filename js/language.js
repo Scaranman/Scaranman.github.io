@@ -11,7 +11,8 @@ var linguJSON = {
             "url_pattern": "jp.jacobscarani.me"
         }
     ],
-    "custom_lang_switcher_html": "<div id=\"langswitcher\" class=\"notranslate\"><a id=\"currlanglink\" href=\"\">[[linguCurrLang]]</a> <a href=\"[[linguTargetLangHref1]]\" class=\"targetlang\">[[linguTargetLang1]]</a><a href=\"[[linguTargetLangHref2]]\" class=\"targetlang\">[[linguTargetLang2]]</a></div>"    "custom_lang_switcher_container_id": "langSwitch",
+    "custom_lang_switcher_html": "<div id=\"langswitcher\" class=\"notranslate\"><a id=\"currlanglink\" href=\"\">[[linguCurrLang]]</a> <a href=\"[[linguTargetLangHref1]]\" class=\"targetlang\">[[linguTargetLang1]]</a><a href=\"[[linguTargetLangHref2]]\" class=\"targetlang\">[[linguTargetLang2]]</a></div>",
+    "custom_lang_switcher_container_id": "langSwitch",
     "translated_segments": [
         {
             "source": "Portfolio",

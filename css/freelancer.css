@@ -6,12 +6,12 @@
 
  @font-face {
     font-family: Kasugi;
-    src: url('/fonts/Kasugi');
+    src: url('/font-awesome/fonts/Kasugi');
 }
 
 @font-face {
     font-family: KasugiMaru;
-    src: url('/fonts/KasugiMaru');
+    src: url('/font-awesome/fonts/KasugiMaru');
 }
    
 :lang(en) p {
