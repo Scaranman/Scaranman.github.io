@@ -31,13 +31,16 @@
 }
 
 #langswitcher {
-    display: box;
+    display: block;
     width: 100px;
     height: 68px;
     text-align: center;
     background-color: #8F5AA5;
-    color: #fff;
     padding: 10px;;
+}
+
+.targetlang, .currentlang {
+    color: #fff;
 }
 
  #resume div.container a {
