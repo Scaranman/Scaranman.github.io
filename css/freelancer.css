@@ -4,6 +4,10 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+ #lingumania_langswitcher{
+     display: none;
+ }
+
  @font-face {
     font-family: Kasugi;
     src: url('/font-awesome/fonts/Kasugi');
