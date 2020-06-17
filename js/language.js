@@ -11,7 +11,7 @@ var linguJSON = {
             "url_pattern": "jacobscarani.me/jp/"
         }
     ],
-    "custom_lang_switcher_html": "<span class=\"notranslate\"><a href=\"http:/jacobscarani.me\">English</a> | <a href=\"http://jp.jacobscarani.me\">日本語</a></span>",
+    "custom_lang_switcher_html": "<span class=\"notranslate\"><a href=\"http:/jacobscarani.me\">English</a> | <a href=\"http://jacobscarani.me/jp/\">日本語</a></span>",
     "custom_lang_switcher_container_id": "langSwitch",
     "translated_segments": [
         {
