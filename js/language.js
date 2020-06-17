@@ -3,7 +3,7 @@ var linguJSON = {
         {
             "lang_name": "English",
             "lang_code": "en",
-            "url_pattern": "jacobscarani.me"
+            "url_pattern": "jacobscarani.me/"
         },
         {
             "lang_name": "日本語",
