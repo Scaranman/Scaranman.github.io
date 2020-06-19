@@ -40,6 +40,6 @@ $('.navbar-collapse ul li a').click(function() {
 
 
 //select2
-$(document).ready(function() {
-    $('languageButtons').children().click(translator.translate(this.value));
-});
+// $(document).ready(function() {
+//     $('languageButtons').children().click(translator.translate(this.value));
+// });
