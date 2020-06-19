@@ -40,11 +40,7 @@ class Translator {
             let text = translation[keys[0]][keys[1]];
 
             if(text) {
-                if(element.firstChild){
-                    element.removeChild(element.firstChild);
-                    element.appendChild(document.createTextNode(text));
-                    element.click(change(this.value));
-                }
+                element.innerHTML = text;
             }
 
             // if(this._lang == "ja"){
