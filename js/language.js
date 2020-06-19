@@ -15,7 +15,7 @@ class Translator {
             this._lang = lang;
         }
 
-    var path = `/js/${this._lang}.json`;
+    var path = `scaranman.github.io/js/${this._lang}.json`;
 
         console.log(path);
 
