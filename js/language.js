@@ -33,6 +33,8 @@ class Translator {
 
 
     translate(translation) {
+        let _translation = translation.
+        console.log(translation);
         console.log(this._elements);
         this._elements.forEach((element) => {
             let keys = element.dataset.i18n.split(".");
@@ -40,7 +42,7 @@ class Translator {
             console.log(element.dataset.i18n)
             console.log(keys);
 
-            let text = translation[keys[0]][keys[1]];
+            let text = _translation[keys[0]][keys[1]];
 
             if(text) {
                 while(element.firstChild){
