@@ -33,7 +33,7 @@ class Translator {
 
 
     translate(translation) {
-        let _translation = translation.
+        let _translation = translation;
         console.log(translation);
         console.log(this._elements);
         this._elements.forEach((element) => {
