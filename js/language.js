@@ -15,7 +15,7 @@ class Translator {
             this._lang = lang;
         }
 
-    var path = `${this._lang}.json`;
+    var path = `/js/${this._lang}.json`;
 
     fetch(path)
         .then((response) => response.json())
