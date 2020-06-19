@@ -17,11 +17,11 @@ class Translator {
 
     var path = `scaranman.github.io/js/${this._lang}.json`;
 
-        console.log(path);
-
     fetch(path)
         .then((response) => response.json())
         .then((translation) => {
+            console.log(path);
+            console.log(translation);
             this.translate(translation);
             this.toggleLangTag();
         })
