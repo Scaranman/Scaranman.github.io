@@ -38,7 +38,7 @@ class Translator {
             console.log(element.dataset.i18n)
             console.log(keys);
 
-            let text = keys.reduce((obj, i) => obj[i], translation);
+            let text = translation[keys[0]][keys[1]];
 
             if(text) {
                 while(element.firstChild){
