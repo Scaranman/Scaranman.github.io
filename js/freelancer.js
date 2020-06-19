@@ -35,3 +35,10 @@ $('body').scrollspy({
 $('.navbar-collapse ul li a').click(function() {
     $('.navbar-toggle:visible').click();
 });
+
+//select2
+$(document).ready(function() {
+    $('select-basic-single').select2({
+        width: 'resolve'
+    });
+});
