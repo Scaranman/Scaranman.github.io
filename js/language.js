@@ -1,5 +1,3 @@
-"use strict";
-
 class Translator {
     constructor(){
         this._options = Object.assign({}, this.defaultConfig, options);        
@@ -66,5 +64,3 @@ class Translator {
       }
 
 }
-
-export default Translator;
