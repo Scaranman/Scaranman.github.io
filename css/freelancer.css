@@ -4,6 +4,10 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+#languageButtons{
+    padding: 10px 15px;
+}
+
  #languageButtons button{
     display: inline-block;
     color: #fff;
