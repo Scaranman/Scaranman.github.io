@@ -31,9 +31,11 @@ class Translator {
 
 
     translate(translation) {
+        console.log(this._elements);
         this._elements.forEach((element) => {
             let keys = element.dataset.i18n.split(".");
-
+            console.log(element);
+            console.log(element.dataset.i18n)
             console.log(keys);
 
             let text = keys.reduce((obj, i) => obj[i], translation);
