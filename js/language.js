@@ -23,8 +23,6 @@ class Translator {
     fetch(path)
         .then((response) => response.json())
         .then((translation) => {
-            console.log(path);
-            console.log(translation);
             this.translate(translation);
             this.toggleLangTag();
         })
@@ -36,14 +34,8 @@ class Translator {
 
 
     translate(translation) {
-        // let _translation = translation;
-        // console.log(translation);
-        // console.log(this._elements);
         this._elements.forEach((element) => {
             let keys = element.dataset.i18n.split(".");
-            console.log(element);
-            console.log(element.dataset.i18n)
-            console.log(keys);
 
             let text = translation[keys[0]][keys[1]];
 
@@ -51,6 +43,7 @@ class Translator {
                 if(element.firstChild){
                     element.removeChild(element.firstChild);
                     element.appendChild(document.createTextNode(text));
+                    element.click(change(this.value));
                 }
             }
 
