@@ -7,6 +7,9 @@ class Translator {
 
     getLanguage(){
         let lang = navigator.languages ? navigator.languages[0] : navigator.language.substr(0,2);
+        if(lang == "en-US"){
+            lang = "en";
+        }
         return lang;
     }
 
@@ -33,19 +36,19 @@ class Translator {
 
 
     translate(translation) {
-        let _translation = translation;
-        console.log(translation);
-        console.log(this._elements);
+        // let _translation = translation;
+        // console.log(translation);
+        // console.log(this._elements);
         this._elements.forEach((element) => {
             let keys = element.dataset.i18n.split(".");
             console.log(element);
             console.log(element.dataset.i18n)
             console.log(keys);
 
-            let text = _translation[keys[0]][keys[1]];
+            let text = translation[keys[0]][keys[1]];
 
             if(text) {
-                while(element.firstChild){
+                if(element.firstChild){
                     element.removeChild(element.firstChild);
                     element.appendChild(document.createTextNode(text));
                 }
