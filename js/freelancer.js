@@ -38,12 +38,6 @@ $('.navbar-collapse ul li a').click(function() {
     $('.navbar-toggle:visible').click();
 });
 
-
-//select2
-$(document).ready(function() {
-    $('languageButtons').children().click(change(this.value));
-});
-
 function change(val){
     translator.load(val);
 }
