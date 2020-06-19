@@ -4,6 +4,8 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+const { default: Translator } = require("./language");
+
 // jQuery for page scrolling feature - requires jQuery Easing plugin
 $(function() {
     $('.page-scroll a').bind('click', function(event) {
@@ -36,9 +38,9 @@ $('.navbar-collapse ul li a').click(function() {
     $('.navbar-toggle:visible').click();
 });
 
+var translator;
+
 //select2
 $(document).ready(function() {
-    $('select-basic-single').select2({
-        width: 'resolve'
-    });
+    translator = new Translator();
 });

@@ -68,5 +68,3 @@ class Translator {
 }
 
 export default Translator;
-
-var translator = new Translator();

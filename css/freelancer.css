@@ -11,6 +11,7 @@
     border-radius: 10px;
     width: 100px;
     height: 32px;
+    border: none;
  }
 
  #languageButtons button:hover{
