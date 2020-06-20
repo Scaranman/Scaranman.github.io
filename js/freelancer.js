@@ -39,6 +39,9 @@ $('.navbar-collapse ul li a').click(function() {
 });
 
 function change(val){
-    translator.load(val);
+    let lan = navigator.language;
+    if(val != document.documentElement.lang){
+        translator.load(val);
+    } 
 }
 
