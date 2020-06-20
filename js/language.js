@@ -41,6 +41,10 @@ class Translator {
 
             if(text) {
                 element.innerHTML = text;
+                if(element.tagName == "label"){
+                    element.nextElementSibling.removeAttribute("placeholder");
+                    element.nextElementSibling.setAttribute("placeholder", text);
+                }
             }
 
             // if(this._lang == "ja"){
