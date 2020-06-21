@@ -41,7 +41,7 @@ class Translator {
 
             if(text) {
                 element.innerHTML = text;
-                if(element.tagName == "label"){
+                if(element.tagName == "LABEL"){
                     element.nextElementSibling.removeAttribute("placeholder");
                     element.nextElementSibling.setAttribute("placeholder", text);
                 }
