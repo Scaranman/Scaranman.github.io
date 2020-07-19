@@ -38,6 +38,19 @@ class Translator {
             let keys = element.dataset.i18n.split(".");
 
             let text = translation[keys[0]][keys[1]];
+            
+            let resumeIMG;
+            let resumePDF;
+
+            switch(this._lang){
+            case "ja": 
+                resumeIMG = "img/resumeJP.png";
+                resumePDF = "documents/Scarani_Jacob_Resume_HCC_JP.pdf";
+                break;
+            default:
+                resumeIMG = "img/resume.png";
+                resumePDF = "documents/Scarani_Jacob_Resume_HCC.pdf";
+            }
 
             if(text) {
                 element.innerHTML = text;
@@ -47,10 +60,15 @@ class Translator {
                 }
             }
 
-            // if(this._lang == "ja"){
-            //     document.getElementById("pdf").setAttribute("href", "documents/Scarani_Jacob_CV_JP")
-            // }
-        });
+            if(element.id == "resume-img"){
+                element.removeAttribute("src");
+                element.setAttribute("src", resumeIMG);
+            }
+            if(element.id == "pdf"){
+                element.removeAttribute("src");
+                element.setAttribute("src", resumePDF);
+            }
+    });
     }
 
     toggleLangTag() {
