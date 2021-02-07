@@ -9,6 +9,32 @@
         "resume": "Resume",
         "contact": "Contact"
     },
+    "portfolio": {
+        "mtg":{
+            "title": "Magic The Gathering Vending Machine"
+        },
+        "rmsc": {
+            "title": "UX Studio 2021 - Rochester Museum & Science Center (RMSC) Webpage redesign"
+        },
+        "alltrails": {
+            "title": "AllTrails App Reskin"
+        },
+        "beef": {
+            "title": "Detrimental Discharge - a cost of beef infographic"
+        },
+        "laundy": {
+            "title": "Laundy Mobile Laundry App"
+        },
+        "mutter": {
+            "title": "Mutter Museum Hertyll Skull Collection Interface"
+        },
+        "sl2": {
+            "title": "Squicoon Land II: Recovery"
+        },
+        "misc": {
+            "title": "Miscellaneous"
+        }
+    },
     "about": {
         "1": "Hi, I’m Jacob. I am a 4th year student at Rochester Institute of Technology pursuing a B.S. degree in Human Centered Computing with a minor in Japanese. I currently live in the Philadelphia area.",
         "2": "I believe I got my drive for UX through the backgound of my family. My mother went to art school and worked as a graphic designer before pursuing a career in Early Childhood education. Both of my mothers parents were also artists and designers. My father is an architect. With these family members, I grew up with a very creative maternal side, and a very logical but design based paternal side.",
