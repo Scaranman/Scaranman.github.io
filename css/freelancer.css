@@ -535,7 +535,7 @@ footer .footer-below {
 }
 
 .portfolio-modal .close-modal {
-    position: absolute;
+    position: fixed;
     top: 25px;
     right: 25px;
     width: 75px;
