@@ -37,7 +37,14 @@ class Translator {
         this._elements.forEach((element) => {
             let keys = element.dataset.i18n.split(".");
 
-            let text = translation[keys[0]][keys[1]];
+            let text;
+        
+            if(keys.length = 2){
+                text = translation[keys[0]][keys[1]];
+            } 
+            else {
+                text = translation[keys[0]][keys[1]][keys[2]];
+            }
             
             let resumeIMG;
             let resumePDF;
@@ -76,5 +83,9 @@ class Translator {
           document.documentElement.lang = this._lang;
         }
       }
+
+    getKeys() {
+
+    }
 
 }
