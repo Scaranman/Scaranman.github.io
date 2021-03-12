@@ -29,12 +29,12 @@
 
  @font-face {
     font-family: Kosugi;
-    src: url('/font-awesome/fonts/Kosugi-regular.ttf');
+    src: url('/font-awesome/fonts/Kosugi-regular');
 }
 
 @font-face {
     font-family: KosugiMaru;
-    src: url('/font-awesome/fonts/KosugiMaru-regular.ttf');
+    src: url('/font-awesome/fonts/KosugiMaru-regular');
 }
    
 :lang(en) p {
