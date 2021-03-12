@@ -39,17 +39,11 @@ class Translator {
 
             let text;
         
-            console.log(keys.length);
-            console.log(keys);
-
-            if(keys.length = 2){
+            if(keys.length === 2){
                 text = translation[keys[0]][keys[1]];
-                console.log(translation[keys[0]][keys[1]]);
-
             } 
             else {
-                text = translation[keys[1]][keys[2]];
-                console.log(translation[keys[1]][keys[2]]);
+                text = translation[keys[0]][keys[1]][keys[2]];
             }
             
             let resumeIMG;
