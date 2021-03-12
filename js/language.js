@@ -39,6 +39,8 @@ class Translator {
 
             let text;
         
+            console.log(keys.length);
+
             if(keys.length = 2){
                 text = translation[keys[0]][keys[1]];
             } 

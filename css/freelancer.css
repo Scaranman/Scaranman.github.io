@@ -28,13 +28,13 @@
 }
 
  @font-face {
-    font-family: Kasugi;
-    src: url('/font-awesome/fonts/Kasugi');
+    font-family: Kosugi;
+    src: url('/font-awesome/fonts/Kosugi-regular.ttf');
 }
 
 @font-face {
-    font-family: KasugiMaru;
-    src: url('/font-awesome/fonts/KasugiMaru');
+    font-family: KosugiMaru;
+    src: url('/font-awesome/fonts/KosugiMaru-regular.ttf');
 }
    
 :lang(en) p {
@@ -45,11 +45,11 @@
     font-family: "Cabin", sans-serif;
 }
 :lang(ja) p {
-    font-family: Kasugi, sans-serif;
+    font-family: Kosugi, sans-serif;
 }
 
 :lang(ja) h1, h2, h3, h4, h5, h6, .nav{
-    font-family: KasugiMaru, sans-serif;
+    font-family: KosugiMaru, sans-serif;
 
 }
 
