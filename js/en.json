@@ -11,7 +11,15 @@
     },
     "portfolio": {
         "mtg":{
-            "title": "Magic The Gathering Vending Machine"
+            "title": "Magic The Gathering Vending Machine",
+            "problemh": "Problem",
+            "solutionh": "Solution",
+            "sketchesh": "Sketches",
+            "diagramh": "User Flow Diagram",
+            "wireframeh": "Wireframe Sample",
+            "StyleGuideh": "Style Guide",
+            "prototypeh": "Prototype",
+            "footer": "<li>Date:<strong>2020</strong></li><li>Team members:<strong>Mary Gentile</strong></li><li>Category:<strong>UX/UI, Visual Design, Prototyping</strong></li><li>Tools used:<strong>Figma</strong></li>"
         },
         "rmsc": {
             "title": "UX Studio 2021 - Rochester Museum & Science Center (RMSC) Webpage redesign"

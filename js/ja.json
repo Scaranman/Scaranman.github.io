@@ -11,7 +11,15 @@
     },
     "portfolio": {
         "mtg":{
-            "title": "マジック:ザギャザリングの自動販売機のUI"
+            "title": "マジック:ザギャザリングの自動販売機のUI",
+            "problemh": "問題",
+            "solutionh": "解決策",
+            "sketchesh": "スケッチ",
+            "diagramh": "ユーザーフロー",
+            "wireframeh": "ワイヤーフレーム",
+            "StyleGuideh": "スタイルガイド",
+            "prototypeh": "プロトタイプ",
+            "footer": "<li>いつ:<strong>2020年</strong></li><li>隊員:<strong>Mary Gentile (メリー・ジェンタイル）</strong></li><li>種類:<strong>UX/UI,  ビジュアルデザイン,  プロトタイピング</strong></li><li>使ったソフト:<strong>Figma</strong></li>"
         },
         "rmsc": {
             "title": "UX スチュディオ 2021 - ロチェスター博物館と科学本場 (RMSC)のホームページの衣替え"
